@@ -1,0 +1,25 @@
+{
+  "name": "class-exercise-3",
+  "description": "For this exercise, you are to convert a project to typescript. You are to type all function parameters and all function return types within the utilities files. You are given just the index.js file. Implement the functions in a typescript project.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc && node build/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blossom-babs/class-exercise-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blossom-babs/class-exercise-3/issues"
+  },
+  "homepage": "https://github.com/blossom-babs/class-exercise-3#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
