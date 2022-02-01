@@ -1,8 +1,8 @@
 const capitalize = (str) => {
     
-    str.toUpperCase();
+    let capitalizedString = str.toUpperCase();
 
-    return str
+    return capitalizedString
   }
   
   module.exports = {
