@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.largeNumber = exports.sum = void 0;
 // add numbers in an array
 const sum = (arr) => {
     let total = 0;
@@ -7,6 +9,7 @@ const sum = (arr) => {
     });
     return total;
 };
+exports.sum = sum;
 // find the largest number in an array
 const largeNumber = (arr) => {
     let largest = 0;
@@ -17,4 +20,4 @@ const largeNumber = (arr) => {
     });
     return largest;
 };
-module.exports = { sum, largeNumber };
+exports.largeNumber = largeNumber;

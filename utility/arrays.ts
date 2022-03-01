@@ -1,4 +1,4 @@
 const numArr:number[] = [3,4,5,6];
 const wordArr:string[] = ['cat', 'dog', 'rabbit', 'bird'];
 
-module.exports = {numArr, wordArr}
+export {numArr, wordArr}

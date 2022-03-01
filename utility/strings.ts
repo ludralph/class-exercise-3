@@ -11,4 +11,4 @@ const cutStr = (arr: number[] | string[]) : number[] | string[] => {
   return arr
 }
 
-module.exports = {concat, cutStr}
+export {concat, cutStr}

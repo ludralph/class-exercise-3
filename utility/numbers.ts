@@ -20,4 +20,4 @@ const largeNumber = (arr: number[]) : number => {
   return largest;
 
 }
-module.exports = {sum, largeNumber}
+export {sum, largeNumber}
